@@ -24,6 +24,8 @@ const LoginForm = () => {
   };
 
   return (
+    <>
+    <div className="loginform">
     <form onSubmit={handleSubmit}>
       <label>
         Username:
@@ -37,6 +39,9 @@ const LoginForm = () => {
       <br />
       <button type="submit">Login</button>
     </form>
+    </div>
+    </>
+    
   );
 };
 

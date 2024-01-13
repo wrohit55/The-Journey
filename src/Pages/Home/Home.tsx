@@ -17,7 +17,7 @@ fetchProducts()
 console.log(products)
   return (
     <>
-          <div className="landing-page"><h1>hello</h1>
+          <div className="landing-page">
 
     {
       products.map((product)=>{
